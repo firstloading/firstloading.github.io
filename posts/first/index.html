@@ -47,7 +47,7 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -74,6 +74,24 @@
         </div>
     </header><ol class="menu" id="main-menu">
         
+        
+        
+        <li >
+            <a href='/' target="_blank">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
         
         <li class="menu-bottom-section">
             <ol class="menu">
@@ -174,13 +192,13 @@
     <section class="article-content">
     
     
-    <h1 id="logging模块使用">logging模块使用
+    <h1 id="logging模块使用"><a href="#logging%e6%a8%a1%e5%9d%97%e4%bd%bf%e7%94%a8" class="header-anchor"></a>logging模块使用
 </h1>
     <blockquote>
         <p>使用print打印信息遇到稍微复杂的python脚本就会炸：一大堆结果和调试信息混杂在一起啥情况都看不出来。写了一个从MDX文件读取17万条文本数据格式化成json再转存sqlite3的脚本，格式话过程使用logging模块来调试例外情况还是相当舒适的。</p>
 
     </blockquote>
-<h2 id="基础使用">基础使用
+<h2 id="基础使用"><a href="#%e5%9f%ba%e7%a1%80%e4%bd%bf%e7%94%a8" class="header-anchor"></a>基础使用
 </h2>
     <blockquote>
         <p>实现简单的日志输出</p>
@@ -206,7 +224,7 @@
 </span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>warning(<span style="color:#e6db74">&#34;一条警告信息&#34;</span>)
 </span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>error(<span style="color:#e6db74">&#34;一条错误信息&#34;</span>)
 </span></span><span style="display:flex;"><span>logging<span style="color:#f92672">.</span>critical(<span style="color:#e6db74">&#34;一条严重错误信息&#34;</span>)
-</span></span></code></pre></div><h3 id="错误级别">错误级别
+</span></span></code></pre></div><h3 id="错误级别"><a href="#%e9%94%99%e8%af%af%e7%ba%a7%e5%88%ab" class="header-anchor"></a>错误级别
 </h3><div class="table-wrapper"><table>
   <thead>
       <tr>
@@ -237,7 +255,7 @@
       </tr>
   </tbody>
 </table></div>
-<h2 id="拓展用法">拓展用法
+<h2 id="拓展用法"><a href="#%e6%8b%93%e5%b1%95%e7%94%a8%e6%b3%95" class="header-anchor"></a>拓展用法
 </h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> logging
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> logging.handlers <span style="color:#f92672">import</span> MemoryHandler, RotatingFileHandler
 </span></span><span style="display:flex;"><span>
@@ -358,6 +376,8 @@ D --提供--> E[logger.DEBUG...]
     <footer class="site-footer">
     <section class="copyright">
         &copy; 
+        
+            2024 - 
         
         2026 鱼鱼爱喝水|yuyulove
     </section>
